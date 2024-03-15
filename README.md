@@ -3,4 +3,5 @@ Sintaxis básica de php
 
 Instalaciones necesarias
 
-- [WAMP](./intro/preparacion-ambiente.md)
+- [WAMP](./intro/wamp.md)
+- [Composer](./intro/composer.md)
