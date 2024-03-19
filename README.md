@@ -3,9 +3,10 @@ Sintaxis básica de php
 
 Instalaciones necesarias
 
-- [WAMP](./intro/wamp.md)
-- [Composer](./intro/composer.md)
-    - [logs](./intro/composer-installation.bash)
 - [Laravel]()
-    - [Crear proyecto](./intro/create-laravel-project.md)
-    - [logs](./intro/create-laravel-project.bash)
+    - [Introducción]()
+        - [WAMP](./laravel/preparacion/wamp.md)
+        - [Composer](./laravel/preparacion/composer.md)
+            - [logs](./laravel/preparacion/composer-installation.bash)
+        - [Artisan](./laravel/artisan/artisan.md)
+            - [logs](./laravel/artisan/artisan.bash)
