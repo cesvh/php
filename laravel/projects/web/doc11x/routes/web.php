@@ -76,7 +76,6 @@ Route::get('/frases/{libro}/{anio}', function(string $libro, string $anio) {
   return "libro $libro, año $anio";
 })->where(['libro' => '.*', 'anio' => '[0-9]+']);
 
-
 // Rutas con nombre
 // ->name()
 
@@ -115,6 +114,30 @@ Route::resources([
     'posts' => PostController::class,
 ]);
 */
+
+Route::get('/greeting', function(){
+  $user_data = ['name' => 'parsec'];
+  return view('greeting', $user_data);
+});
+
+
+Route::get('/admin/profile', function() {
+    $user_data = ['name' => 'parsec'];
+    return view('admin.profile', $user_data);
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

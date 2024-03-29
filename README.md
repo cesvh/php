@@ -27,6 +27,11 @@ Instalaciones necesarias
             - [Controlador de acción única](./laravel/projects/web/doc11x/app/Http/Controllers/ProvisionServer.php)
             - [Controladores de recursos](./laravel/projects/web/doc11x/app/Http/Controllers/PhotoController.php)
 
+        - [Vistas](./laravel/view/view.md)
+            - [logs](./laravel/view/view.bash)
+            - [Vista básica](./laravel/projects/web/doc11x/resources/views/greeting.blade.php)
+            - [Vista anidada](./laravel/projects/web/doc11x/resources/views/admin/profile.blade.php)
+
         <!-- - [HTTP Requests](https://laravel.com/docs/11.x/requests) -->
 
         <!-- - [HTTP Responses](https://laravel.com/docs/11.x/responses) -->
