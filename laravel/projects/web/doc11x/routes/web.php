@@ -2,6 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Http\Request;
+use App\Http\Controllers\UserController;
+use App\Http\Controllers\ProvisionServer;
+use App\Http\Controllers\PhotoController;
 
 // Enrutamiento básico
 Route::get('/', function() {
@@ -66,10 +69,13 @@ Route::redirect('/estatus', '/status', 301);
 // Rutas vistas
 Route::view('/home', 'welcome', ['name' => 'parsec']);
 
+// Routing Customization
+
 // Restricciones de expresiones regulares
 Route::get('/frases/{libro}/{anio}', function(string $libro, string $anio) {
   return "libro $libro, año $anio";
 })->where(['libro' => '.*', 'anio' => '[0-9]+']);
+
 
 // Rutas con nombre
 // ->name()
@@ -79,3 +85,66 @@ Route::get('/frases/{libro}/{anio}', function(string $libro, string $anio) {
 // Route::controller
 // Route::domain()
 // Route::prefix
+
+// Route Model Binding
+
+// Rate Limiting
+
+// Form Method Spoofing
+
+// Route Caching
+
+// ///////////////////////////////////////
+# Controllers
+Route::get('/user/{id}', [UserController::class, 'show']);
+Route::get('/server', ProvisionServer::class);
+Route::resource('photos', PhotoController::class);
+/*
+Verb      URI                     Action    Route Name
+GET       /photos                 index     photos.index
+GET       /photos/create          create    photos.create
+POST      /photos                 store     photos.store
+GET       /photos/{photo}         show      photos.show
+GET       /photos/{photo}/edit    edit      photos.edit
+PUT/PATCH /photos/{photo}         update    photos.update
+DELET     /photos/{photo}         destroy   photos.destroy
+*/
+/*
+Route::resources([
+    'photos' => PhotoController::class,
+    'posts' => PostController::class,
+]);
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// parsec
