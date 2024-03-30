@@ -116,8 +116,15 @@ Route::resources([
 */
 
 Route::get('/greeting', function(){
-  $user_data = ['name' => 'parsec'];
-  return view('greeting', $user_data);
+  $user_main = ['name' => 'cesvh'];
+  $user_data = [
+    [ 'name' => 'parsec'],
+    [ 'name' => 'pars'],
+    [ 'name' => 'cdev']
+  ];
+  return view('greeting', [
+    'user_main' => $user_main,
+    'users' => $user_data ]);
 });
 
 
@@ -125,6 +132,7 @@ Route::get('/admin/profile', function() {
     $user_data = ['name' => 'parsec'];
     return view('admin.profile', $user_data);
 });
+
 
 
 

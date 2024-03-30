@@ -32,9 +32,17 @@ Instalaciones necesarias
             - [Vista básica](./laravel/projects/web/doc11x/resources/views/greeting.blade.php)
             - [Vista anidada](./laravel/projects/web/doc11x/resources/views/admin/profile.blade.php)
 
+        - [Blade Templates](./laravel/templates/blade_templates.md)
+            - [logs](./laravel/templates/blade_templates.bash)
+            - [Pasar datos a la vista desde la ruta, @foreach](./laravel/projects/web/doc11x/resources/views/greeting.blade.php)
+
         <!-- - [HTTP Requests](https://laravel.com/docs/11.x/requests) -->
 
         <!-- - [HTTP Responses](https://laravel.com/docs/11.x/responses) -->
+
+        <!-- - [HTTP Session](https://laravel.com/docs/11.x/session) -->
+
+        <!-- - [Error Handling](https://laravel.com/docs/11.x/errors) -->
 
     - [my_two_tbl](./laravel/projects/web/my_two_tbl/)
         - [laravel new my_two_tbl](./laravel/crear-proyecto/laravel-new-my_two_tbl.bash)
