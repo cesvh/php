@@ -46,3 +46,4 @@ Instalaciones necesarias
 
     - [crud](./laravel/projects/web/crud/)
         - [laravel new crudv0](./laravel/crear-proyecto/laravel-new-crudv0.bash)
+    - [Ejemplo de crud - Laravel 11 - MySql](./laravel/projects/web/crudv0/)
