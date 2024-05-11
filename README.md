@@ -44,8 +44,5 @@ Instalaciones necesarias
 
         <!-- - [Error Handling](https://laravel.com/docs/11.x/errors) -->
 
-    - [my_two_tbl](./laravel/projects/web/my_two_tbl/)
-        - [laravel new my_two_tbl](./laravel/crear-proyecto/laravel-new-my_two_tbl.bash)
-
-    - [ps_two_tbl](./laravel/projects/web/ps_two_tbl/)
-        - [laravel new ps_two_tbl](./laravel/crear-proyecto/laravel-new-ps_two_tbl.bash)
+    - [crud](./laravel/projects/web/crud/)
+        - [laravel new crudv0](./laravel/crear-proyecto/laravel-new-crudv0.bash)
