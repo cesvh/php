@@ -47,3 +47,9 @@ Instalaciones necesarias
     - [crud](./laravel/projects/web/crud/)
         - [laravel new crudv0](./laravel/crear-proyecto/laravel-new-crudv0.bash)
     - [Ejemplo de crud - Laravel 11 - MySql](./laravel/projects/web/crudv0/)
+        - [Configuraciones en ".env"]()</br>
+            DB_CONNECTION=mysql</br>
+            DB_HOST=127.0.0.1</br>
+            DB_PORT=3306</br>
+            DB_DATABASE=db_crudv0</br>
+            DB_USERNAME=root</br>
