@@ -53,3 +53,5 @@ Instalaciones necesarias
             DB_PORT=3306</br>
             DB_DATABASE=db_crudv0</br>
             DB_USERNAME=root</br>
+        - [Configuraciones para usar bootstrap5 y cambiar longitud de las strings en las migraciones](./laravel/projects/web/crudv0/app/Providers/AppServiceProvider.php)
+        
