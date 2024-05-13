@@ -54,4 +54,9 @@ Instalaciones necesarias
             DB_DATABASE=db_crudv0</br>
             DB_USERNAME=root</br>
         - [Configuraciones para usar bootstrap5 y cambiar longitud de las strings en las migraciones](./laravel/projects/web/crudv0/app/Providers/AppServiceProvider.php)
-        
+        - [Rutas](./laravel/projects/web/crudv0/routes/web.php)
+        - [Controlador de User](./laravel/projects/web/crudv0/app/Http/Controllers/UserController.php)
+        - [Vistas]()
+            - [Inicio - Listado de Usuarios](./laravel/projects/web/crudv0/resources/views/users/index.blade.php)
+            - [Crear Usuarios](./laravel/projects/web/crudv0/resources/views/users/create.blade.php)
+            - [Editar Usuarios](./laravel/projects/web/crudv0/resources/views/users/edit.blade.php)
