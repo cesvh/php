@@ -43,9 +43,7 @@ Instalaciones necesarias
         <!-- - [HTTP Session](https://laravel.com/docs/11.x/session) -->
 
         <!-- - [Error Handling](https://laravel.com/docs/11.x/errors) -->
-
-    - [crud](./laravel/projects/web/crud/)
-        - [laravel new crudv0](./laravel/crear-proyecto/laravel-new-crudv0.bash)
+        
     - [Ejemplo de crud - Laravel 11 - MySql](./laravel/projects/web/crudv0/)
         - [Configuraciones en ".env"]()</br>
             DB_CONNECTION=mysql</br>
