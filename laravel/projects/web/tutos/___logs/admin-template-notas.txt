@@ -1,0 +1,4 @@
+url del post usado para el tuto:
+	https://www.itsolutionstuff.com/post/how-to-integrate-admin-template-in-laravel-11example.html
+url del template: 
+	https://startbootstrap.com/template/sb-admin
