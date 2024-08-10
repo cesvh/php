@@ -1,0 +1,68 @@
+
+-m: Se refiere a una migración del modelo.
+   C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud\database\migrations\2024_08_10_191408_create_products_table.php
+
+cr: Se refiere a un controlador de recursos.
+   C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud\app\Http\Controllers\ProductController.php
+--requests: Se refiere a las solicitudes personalizadas para el controlador de recursos.
+   C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud\app\Http\Requests\StoreProductRequest.php
+   C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud\app\Http\Requests\UpdateProductRequest.php
+
+
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud>
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud>
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud>
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud> ls
+
+
+    Directorio: C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----     12/03/2024  07:52 a. m.                app
+d-----     12/03/2024  07:52 a. m.                bootstrap
+d-----     12/03/2024  07:52 a. m.                config
+d-----     09/08/2024  11:26 p. m.                database
+d-----     12/03/2024  07:52 a. m.                public
+d-----     12/03/2024  07:52 a. m.                resources
+d-----     12/03/2024  07:52 a. m.                routes
+d-----     12/03/2024  07:52 a. m.                storage
+d-----     12/03/2024  07:52 a. m.                tests
+d-----     09/08/2024  11:24 p. m.                vendor
+------     12/03/2024  07:52 a. m.            258 .editorconfig
+-a----     09/08/2024  11:38 p. m.           1128 .env
+------     12/03/2024  07:52 a. m.           1075 .env.example
+------     12/03/2024  07:52 a. m.            186 .gitattributes
+------     12/03/2024  07:52 a. m.            243 .gitignore
+------     12/03/2024  07:52 a. m.            350 artisan
+------     12/03/2024  07:52 a. m.           2029 composer.json
+-a----     09/08/2024  11:20 p. m.         301021 composer.lock
+------     12/03/2024  07:52 a. m.            244 package.json
+------     12/03/2024  07:52 a. m.           1191 phpunit.xml
+------     12/03/2024  07:52 a. m.           4109 README.md
+------     12/03/2024  07:52 a. m.            263 vite.config.js
+
+
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud>
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud>
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud>
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud> php artisan make:model Product -mcr --requests
+
+   INFO  Model [C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud\app\Models\Product.php] created successfully.
+
+   INFO  Migration [C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud\database\migrations/2024_08_10_191408_create_products_table.php] created successfully.
+
+   INFO  Request [C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud\app\Http\Requests\StoreProductRequest.php] created successfully.
+
+   INFO  Request [C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud\app\Http\Requests\UpdateProductRequest.php] created successfully.
+
+   INFO  Controller [C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud\app\Http\Controllers\ProductController.php] created successfully.
+
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud>
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud>
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud>
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud>
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud>
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud>
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud>
