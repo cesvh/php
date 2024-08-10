@@ -128,3 +128,33 @@ PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud>
 PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud>
 PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud>
 PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud>
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud>
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud>
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud>
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud>
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud>
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud>
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud>
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud>
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud>
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud> php artisan route:list
+
+  GET|HEAD        / .....................................................................................................................................
+  POST            _ignition/execute-solution .............................. ignition.executeSolution › Spatie\LaravelIgnition › ExecuteSolutionController
+  GET|HEAD        _ignition/health-check .......................................... ignition.healthCheck › Spatie\LaravelIgnition › HealthCheckController
+  POST            _ignition/update-config ....................................... ignition.updateConfig › Spatie\LaravelIgnition › UpdateConfigController
+  GET|HEAD        products ..................................................................................... products.index › ProductController@index
+  POST            products ..................................................................................... products.store › ProductController@store
+  GET|HEAD        products/create ............................................................................ products.create › ProductController@create
+  GET|HEAD        products/{product} ............................................................................. products.show › ProductController@show
+  PUT|PATCH       products/{product} ......................................................................... products.update › ProductController@update
+  DELETE          products/{product} ....................................................................... products.destroy › ProductController@destroy
+  GET|HEAD        products/{product}/edit ........................................................................ products.edit › ProductController@edit
+  GET|HEAD        up ....................................................................................................................................
+
+                                                                                                                                      Showing [12] routes
+
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud>
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud>
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud>
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud>
