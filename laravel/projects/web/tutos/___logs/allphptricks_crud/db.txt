@@ -1,0 +1,2 @@
+db: db_allphptricks_crud
+cotejamiento: utf8mb4_unicode_ci
