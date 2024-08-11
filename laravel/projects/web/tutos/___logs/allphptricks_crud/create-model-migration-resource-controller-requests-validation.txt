@@ -151,9 +151,48 @@ PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud> p
   DELETE          products/{product} ....................................................................... products.destroy › ProductController@destroy
   GET|HEAD        products/{product}/edit ........................................................................ products.edit › ProductController@edit
   GET|HEAD        up ....................................................................................................................................
-
                                                                                                                                       Showing [12] routes
 
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud>
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud>
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud>
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud>
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud>
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud>
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud> php artisan make:view layouts.app
+
+   INFO  View [C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud\resources\views\layouts\app.blade.php] created successfully.
+
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud>
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud>
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud>
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud> php artisan make:view products.index
+
+   INFO  View [C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud\resources\views\products\index.blade.php] created successfully.
+
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud>
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud>
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud>
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud> php artisan make:view products.create
+
+   INFO  View [C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud\resources\views\products\create.blade.php] created successfully. 
+
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud>
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud>
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud>
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud> php artisan make:view products.edit
+
+   INFO  View [C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud\resources\views\products\edit.blade.php] created successfully.
+
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud>
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud>
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud>
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud>
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud> php artisan make:view products.show
+
+   INFO  View [C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud\resources\views\products\show.blade.php] created successfully.
+
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud>
 PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud>
 PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud>
 PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\allphptricks_crud>
