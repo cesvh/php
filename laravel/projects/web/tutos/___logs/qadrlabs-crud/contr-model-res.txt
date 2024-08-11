@@ -1,0 +1,13 @@
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\qadrlabs-crud>
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\qadrlabs-crud>
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\qadrlabs-crud>
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\qadrlabs-crud>
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\qadrlabs-crud> php artisan make:controller UserController --model=User --resource
+
+   INFO  Controller [C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\qadrlabs-crud\app\Http\Controllers\UserController.php] created successfully. 
+
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\qadrlabs-crud>
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\qadrlabs-crud>
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\qadrlabs-crud>
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\qadrlabs-crud>
+PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\qadrlabs-crud>
