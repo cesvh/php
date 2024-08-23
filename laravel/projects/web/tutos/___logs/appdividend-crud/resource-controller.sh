@@ -55,9 +55,6 @@ PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\appdividend-crud> ph
   DELETE          employees/{employee} ..................................................................................................................................................................................................................................... employees.destroy › EmployeeController@destroy
   GET|HEAD        employees/{employee}/edit ...................................................................................................................................................................................................................................... employees.edit › EmployeeController@edit
   GET|HEAD        up ......................................................................................................................................................................................................................................................................................................
-
-                                                                                                                                                                                                                                                                                                         Showing [9] routes
-
 PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\appdividend-crud>
 PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\appdividend-crud>
 PS C:\Users\cesvh\dev\github\php\laravel\projects\web\tutos\appdividend-crud>
