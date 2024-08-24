@@ -18,7 +18,8 @@
                 <li>{{ $error }}</li>
                 @endforeach
             </ul>
-        </div><br /> @endif
+        </div><br />
+        @endif
         <form method="post" action="{{ route('employees.store') }}">
             @csrf
             <!-- Name Field -->
