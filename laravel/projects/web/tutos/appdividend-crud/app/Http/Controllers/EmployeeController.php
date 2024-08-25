@@ -36,7 +36,7 @@ class EmployeeController extends Controller
         ]);
 
         Employee::create($validatedData);
-        return redirect('/employees')->with('success', 'Empleado Agregado');
+        return redirect('/employees')->with('success', 'Empleado Agregado con Éxito');
     }
 
     /**
@@ -52,7 +52,8 @@ class EmployeeController extends Controller
      */
     public function edit(string $id)
     {
-        //
+        $employee = Employee::findOrFail($id);
+        return view('edit', compact('employee'));
     }
 
     /**
@@ -60,7 +61,13 @@ class EmployeeController extends Controller
      */
     public function update(Request $request, string $id)
     {
-        //
+        $validatedData = $request->validate([
+            'name' => 'required|max:255',
+            'position' => 'required',
+            'salary' => 'required'
+        ]);
+        Employee::whereId($id)->update($validatedData);
+        return redirect('/employees')->with('Empleado Actualizado con éxito');
     }
 
     /**
@@ -68,6 +75,8 @@ class EmployeeController extends Controller
      */
     public function destroy(string $id)
     {
-        //
+        $employee = Employee::findOrFail($id);
+        $employee->delete();
+        return redirect('/employees')->with('success', 'Empleado Eliminado con Éxito');
     }
 }
