@@ -19,8 +19,8 @@ class ItemController extends Controller
     {
         $items = Item::latest()->paginate(5);
           
-        return view('items.index', compact('items'))
-                    ->simplePaginate(10);
+        return view('items.index', compact('items'));
+                    // ->simplePaginate(10);
     }
 
     /**
@@ -39,7 +39,7 @@ class ItemController extends Controller
         Item::create($request->validated());
            
         return redirect()->route('items.index')
-                         ->with('success', 'Item created successfully.');
+                         ->with('success', 'Artículo agregado con éxito.');
     }
 
     /**
@@ -66,7 +66,7 @@ class ItemController extends Controller
         $item->update($request->validated());
           
         return redirect()->route('items.index')
-                        ->with('success','Item updated successfully');
+                        ->with('success','Artículo actualizado con éxito.');
     }
 
     /**
@@ -77,6 +77,6 @@ class ItemController extends Controller
         $item->delete();
            
         return redirect()->route('items.index')
-                        ->with('success','Item deleted successfully');
+                        ->with('success','Artículo eliminado con éxito.');
     }
 }
