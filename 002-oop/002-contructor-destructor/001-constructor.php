@@ -9,7 +9,7 @@ class BankAccount {
 		$this->balance = $balance;
 	}
 
-	public function showData(){
+	public function showData() {
 		return $this->accountNumber . " - " . $this->balance;
 	}
 }

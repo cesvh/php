@@ -1,6 +1,5 @@
 <?php
 
-
 class User {
     public readonly string $username;
     public string $password;
