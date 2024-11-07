@@ -12,3 +12,4 @@ class User {
 
 $user = new User();
 $user->setUsername('joe');
+echo $user->username;
