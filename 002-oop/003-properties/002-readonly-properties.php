@@ -9,6 +9,7 @@ class User {
 }
 
 $user = new User('joe','secure');
+echo $user->username;
 $user->username = 'john';
 
 /*
