@@ -8,7 +8,7 @@ class Customer {
 	}
 
 	protected function format() {
-		return ucwords($this->name);
+		return ucwords("Customer format ucwords" . $this->name);
 	}
 
 	public function getName() {
@@ -18,7 +18,7 @@ class Customer {
 
 class VIP extends Customer {
 	protected function format() {
-		return strtoupper($this->name);
+		return strtoupper("VIP format strtoupper" . $this->name);
 	}
 }
 
