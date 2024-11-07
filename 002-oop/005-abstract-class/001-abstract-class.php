@@ -26,7 +26,7 @@ abstract class Dumper {
 class WebDumper extends Dumper {
 	public function dump($data) {
 		echo '<pre>';
-		var_dump("class WebDumper extends Dumper");
+		var_dump("WebDumper extends Dumper");
 		var_dump($data);
 		echo '</pre>';
 	}
@@ -34,14 +34,14 @@ class WebDumper extends Dumper {
 
 class ConsoleDumper extends Dumper {
 	public function dump($data) {
-	    var_dump("class ConsoleDumper extends Dumper");
+	    var_dump("ConsoleDumper extends Dumper");
 		var_dump($data);
 	}
 }
 
 class DumperFactory {
 	public static function getDumper() {
-	  var_dump("class DumperFactory - public static function getDumper()");
+	  var_dump("DumperFactory - public static function getDumper");
 	  var_dump(PHP_SAPI);
 		return PHP_SAPI === 'cli'
             ? new ConsoleDumper()
