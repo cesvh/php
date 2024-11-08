@@ -38,3 +38,38 @@ class MyClass implements MyInterface
  * ¿Por qué deberías utilizar interfaces PHP?
  * 
  */
+
+ interface Logger {
+	public function log($message);
+}
+
+class FileLogger implements Logger {
+	private $logFile;
+
+	public function __construct($filename) {
+		$this->logFile = $filename;
+		// echo "class FileLogger $filename\n";
+	}
+	
+	public function log($message) {
+		echo "class FileLogger " . $message . " " . $this->logFile . "\n";
+	}
+}
+
+class DatabaseLogger implements Logger {
+	public function log($message) {
+		echo "class DatabaseLogger $message\n";
+	}
+}
+
+// $logger = new FileLogger('./log.txt');
+// $logger->log('PHP interfae is awesome');
+
+$loggers = [
+	new DatabaseLogger(),
+	new FileLogger('./log.txt')
+];
+
+foreach ($loggers as $logger) {
+	$logger->log('Log message');
+}
