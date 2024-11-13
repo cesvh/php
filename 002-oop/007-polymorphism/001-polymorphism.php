@@ -21,3 +21,17 @@ class French extends Person {
 		return 'Bonjour!';
 	}
 }
+
+function greeting($people) {
+	foreach ($people as $person) {
+		echo $person->greet() . '<br>';
+	}
+}
+
+$people = [
+	new English(),
+	new German(),
+	new French()
+];
+
+greeting($people);
