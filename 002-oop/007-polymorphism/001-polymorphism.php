@@ -22,16 +22,24 @@ class French extends Person {
 	}
 }
 
+class American extends Person {
+	public function greet() {
+		return 'Hi!';
+	}
+}
+
 function greeting($people) {
 	foreach ($people as $person) {
-		echo $person->greet() . '<br>';
+		echo $person->greet();
+		echo "\n";
 	}
 }
 
 $people = [
 	new English(),
 	new German(),
-	new French()
+	new French(),
+	new American()
 ];
 
 greeting($people);
