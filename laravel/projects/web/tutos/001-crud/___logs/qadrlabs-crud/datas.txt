@@ -1,3 +1,0 @@
-url: https://qadrlabs.com/post/percobaan-development-crud-app-sederhana-menggunakan-laravel-11
-
---prefer-dist: Intentaría descargar y descomprimir los archivos de las dependencias usando GitHub u otra API cuando esté disponible. Esto se usa para descargar dependencias más rápido en la mayoría de los casos. No descarga todo el historial de VCS de las dependencias y debería almacenarse mejor en caché. Además, los archivos en GitHub podrían excluir algunos archivos que no necesitas solo por usar la dependencia con la directiva de exclusión .gitattributes.
