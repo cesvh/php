@@ -10,5 +10,6 @@ var_dump(PHP_INT_MAX);
 
 $great = 999_999_999_999_999_999;
 var_dump($great);
+var_dump(is_int($year));
 
 ?>
