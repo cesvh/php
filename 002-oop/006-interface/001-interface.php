@@ -17,23 +17,6 @@
  * 
  */
 
-/*
-interface MyInterface
-{
-	const CONSTANT_NAME = 1;
-
-	public function methodName();
-}
-
-class MyClass implements MyInterface
-{
-	public function methodName()
-	{
-		// ...
-	}
-}
-*/
-
 /**
  * ¿Por qué deberías utilizar interfaces PHP?
  * 
