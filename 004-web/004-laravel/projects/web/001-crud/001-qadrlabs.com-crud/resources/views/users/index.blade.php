@@ -37,7 +37,7 @@
                                 <td>{{ $user->email }}</td>
                                 <td>{{ $user->created_at->format('d-m-Y') }}</td>
                                 <td>
-                                    <form onsubmit="return confirm('Apakah Anda Yakin ?');"
+                                    <form onsubmit="return confirm('¿Desea Eliminar el Usuario?');"
                                           action="{{ route('user.destroy', $user->id) }}" method="POST">
                                         <a href="{{ route('user.edit', $user->id) }}"
                                            class="btn btn-sm btn-primary">Editar</a>
