@@ -2,12 +2,12 @@
 
 $res = 0;
 
-function multiplicacion($num1, $num2, &$res = 0) {
+function potencia($num1, $num2, &$res = 0) {
     $res = $num1 ** $num2;
-    echo "Resultado de la multiplicacion: " . $res;
+    echo "Resultado de la potencia: " . $res;
 }
 
-multiplicacion(5, 5, $res);
+potencia(5, 5, $res);
 
 echo "\r\n";
 echo $res;
@@ -15,6 +15,6 @@ echo $res;
 /*
 Output:
 
-Resultado de la multiplicacion: 3125
+Resultado de la potencia: 3125
 3125
 */
