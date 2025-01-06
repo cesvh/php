@@ -9,5 +9,5 @@ crearFolio("ces", "cvh@gmail.com", "-");
 /*
 Output:
 
-Resultado de la multiplicacion: 25
+folio: "ces-cvh@gmail.com"
 */
