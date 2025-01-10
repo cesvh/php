@@ -8,7 +8,7 @@ $permissions = [
 
 print_r($permissions);
 
-array_unshift($permissions, 'new');
+array_unshift($permissions, 'new', 'approve', 'reject');
 
 print_r($permissions);
 
@@ -24,9 +24,11 @@ Array
 Array
 (
     [0] => new
-    [1] => edit
-    [2] => delete
-    [3] => view
+    [1] => approve
+    [2] => reject
+    [3] => edit
+    [4] => delete
+    [5] => view
 )
 */
 
