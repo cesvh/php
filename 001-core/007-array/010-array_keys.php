@@ -1,5 +1,9 @@
 <?php
 
+/*
+#array_keys #Obtener claves de un array #Obtener clave buscado por un valor #Obtener clave buscado por un valor de forma estricta
+*/
+
 $numbers = [10, 20, 30, 30, 50, 60, 30];
 $keys = array_keys($numbers);
 print_r($keys);
