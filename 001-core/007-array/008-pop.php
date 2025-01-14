@@ -1,5 +1,9 @@
 <?php
 
+/*
+#array_pop #Elimina elementos al final del array
+*/
+
 $numbers = [1, 2, 3];
 $last_number = array_pop($numbers);
 echo $last_number . "\r\n";

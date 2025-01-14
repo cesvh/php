@@ -1,5 +1,9 @@
 <?php
 
+/*
+#array_unshift #Agrega elementos al principio de un array
+*/
+
 $permissions = [
 	'edit',
 	'delete',
