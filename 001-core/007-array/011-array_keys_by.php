@@ -1,5 +1,9 @@
 <?php
 
+/*
+#array_keys_by #Obtener claves validados por el contenido de las claves
+*/
+
 function array_keys_by(array $array, callable $callback): array
 {
 	$keys = [];
